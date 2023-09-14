@@ -1,4 +1,4 @@
-module github.com/ryankurte/go-mapbox
+module github.com/aleman-autos/go-mapbox
 
 go 1.13
 
