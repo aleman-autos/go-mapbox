@@ -92,6 +92,7 @@ type RequestOpts struct {
 	VoiceInstructions  bool          `url:"voice_instructions,omitempty"`
 	BannerInstructions bool          `url:"banner_instructions,omitempty"`
 	VoiceUnits         string        `url:"voice_units,omitempty"`
+	DepartAt           string        `url:"depart_at,omitempty"`
 }
 
 // SetRadiuses sets radiuses for the maximum distance any coordinate can move when snapped to  nearby road segment.
