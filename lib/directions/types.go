@@ -3,7 +3,7 @@
  * Wraps the mapbox directions API for server side use
  * See https://www.mapbox.com/api-documentation/#retrieve-directions for API information
  *
- * https://github.com/ryankurte/go-mapbox
+ * https://github.com/aleman-autos/go-mapbox
  * Copyright 2017 Ryan Kurte
  */
 
@@ -89,7 +89,7 @@ type Intersection struct {
 }
 
 // Lane
-//https://www.mapbox.com/api-documentation/#lane-object
+// https://www.mapbox.com/api-documentation/#lane-object
 type Lane struct {
 	Valid      bool
 	Indicatons []string

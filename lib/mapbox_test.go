@@ -3,17 +3,16 @@ package mapbox
 import (
 	"os"
 	"testing"
+
+	"github.com/aleman-autos/go-mapbox/lib/base"
+	"github.com/aleman-autos/go-mapbox/lib/directions"
+	"github.com/aleman-autos/go-mapbox/lib/directions_matrix"
+	"github.com/aleman-autos/go-mapbox/lib/geocode"
+	"github.com/aleman-autos/go-mapbox/lib/map_matching"
+	"github.com/aleman-autos/go-mapbox/lib/maps"
 )
 
 // Import the core module and any required APIs
-import (
-	"github.com/ryankurte/go-mapbox/lib/base"
-	"github.com/ryankurte/go-mapbox/lib/directions"
-	"github.com/ryankurte/go-mapbox/lib/directions_matrix"
-	"github.com/ryankurte/go-mapbox/lib/geocode"
-	"github.com/ryankurte/go-mapbox/lib/map_matching"
-	"github.com/ryankurte/go-mapbox/lib/maps"
-)
 
 func TestMaps(t *testing.T) {
 	// Create new mapbox instance
